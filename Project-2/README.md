@@ -8,6 +8,18 @@ This project is designed and implemented to forecast the patient readmission wit
 Input Dataset 
   name = Diabetes 130-US Hospitals for Years 1999-2008
   source = ucimlrepo
+Target Column in the Dataset
+"NO"
+0 (Not readmitted)
+">30"
+0 (Not readmitted within 30 days)
+"<30"
+1 (Readmitted within 30 days) 
+
+## Dataset
+Rows: 100,000+
+ Features: Age, race, admission type, discharge, diagnosis codes, number of medications, lab procedures, number of diagnoses, etc.
+ Target column: readmitted → “<30”, “>30”, “NO” → Convert into binary (yes/no for within 30 days)
 
 ## Files
 HospitalReadmissionAdmission.ipynb
