@@ -44,7 +44,7 @@ HospitalReadmissionAdmission.ipynb
 6. ### Model Training & Evaluation
    We train using 3 algorithms 1. Logistic Regression, Random Forest and XGBoost. Out of all 3 XGBoost gave us better performance.
 
-7. ### Visualisation
-   We then visualise the comparison of the output obtained from all 3 algorithms and compare which one is better.
+7. ### Visualization
+   We then visualize the comparison of the output obtained from all 3 algorithms and compare which one is better.
 
    
