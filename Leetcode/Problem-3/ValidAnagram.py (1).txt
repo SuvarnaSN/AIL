@@ -1,0 +1,15 @@
+s = "anagram"
+t = "nagaram"
+str1 = []
+str2 = []
+
+if len(s) > 1 and len(t) < 5*pow(10,4) and len(t) > 1 and len(t) < 5*pow(10, 4):
+str1 = sorted(list(s))
+str2 = sorted(list(t))
+
+print(str1, type(str1), str2, type(str2))
+
+if str1 == str2:
+print("Yes")
+else:
+print("NO")
